@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button - Boostrap</title>
+
+    <!-- CSS from Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container mt-5 mb-5">
+        <header>
+            <h1>Using button component - Boostrap</h1>
+        </header>
+
+        <section class="mt-5">
+            <article>
+                <h2>Variant button on boostrap</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem neque veniam aut fugit pariatur. Accusantium hic minus asperiores nulla pariatur, deserunt dolorem delectus modi vero, commodi, velit sint fugit iusto!
+                </p>
+                <button type="button" class="btn">Base Class</button>
+                <button type="button" class="btn btn-primary">Button Primary</button>
+                <button type="button" class="btn btn-secondary">Button Secondary</button>
+                <button type="button" class="btn btn-success">Button Success</button>
+                <button type="button" class="btn btn-danger">Button Danger</button>
+                <button type="button" class="btn btn-warning">Button Warning</button>
+                <button type="button" class="btn btn-info">Button Info</button>
+                <button type="button" class="btn btn-light">Button Light</button>
+                <button type="button" class="btn btn-dark">Button Dark</button>
+            </article>
+
+            <article class="mt-5">
+                <h2>Outline button on boostrap</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi adipisci quis molestiae possimus sapiente praesentium esse est atque rem, dolores placeat. Rem tempore voluptas odit nostrum quia earum, minima fugiat?
+                </p>
+                <button type="button" class="btn btn-outline-primary">Outline Primary</button>
+                <button type="button" class="btn btn-outline-secondary">Outline Secondary</button>
+                <button type="button" class="btn btn-outline-success">Outline Success</button>
+                <button type="button" class="btn btn-outline-danger">Outline Danger</button>
+                <button type="button" class="btn btn-outline-warning">Outline Warning</button>
+                <button type="button" class="btn btn-outline-info">Outline Info</button>
+                <button type="button" class="btn btn-outline-light">Outline Light</button>
+                <button type="button" class="btn btn-outline-dark">Outline Dark</button>
+            </article>
+
+            <article class="mt-5">
+                <h2>Size button on boostrap</h2>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus alias, quisquam quos inventore eos consequatur. Optio totam omnis esse eos cumque maiores aliquam molestiae ipsum iste, facere a, aspernatur enim.
+                </p>
+
+                <!-- Large button -->
+                <button type="button" class="btn btn-primary btn-lg">Primary Large</button>
+                <button type="button" class="btn btn-secondary btn-lg">Secondary Large</button>
+
+                <!-- Small button -->
+                <button type="button" class="btn btn-primary btn-sm">Primary Small</button>
+                <button type="button" class="btn btn-secondary btn-sm">Secondary Small</button>
+
+                <!-- Custon button -->
+                <button type="button" class="btn btn-primary" style="--bs-btn-padding-y: .75rem; --bs-btn-padding-x: .75rem; --bs-btn-font-size: .90rem;">Custom Button</button>
+            </article>
+
+            <article class="mt-5">
+                <h2>Disable state button on boostrap</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore quae earum illo cupiditate! At, nam veritatis laboriosam facilis quas excepturi facere inventore earum labore reiciendis architecto officia dolor praesentium itaque?
+                </p>
+                <button type="button" class="btn btn-primary" disabled>Primary Button</button>
+                <button type="button" class="btn btn-secondary" disabled>Secondary Button</button>
+                <button type="button" class="btn btn-outline-primary" disabled>Primary Button</button>
+                <button type="button" class="btn btn-outline-secondary" disabled>Secondary Button</button>
+            </article>
+
+            <article class="mt-5">
+                <h2>Block buttons on boostrap</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates, natus expedita neque facere molestias nam. Odio praesentium quae maxime! Consectetur voluptates deserunt sequi accusantium cum rerum, hic dolore dolores tempora?
+                </p>
+                <div class="d-grid gap-2">
+                    <h3>Full Width Button</h3>
+                    <button type="button" class="btn btn-primary">Primary Button</button>
+                    <button type="button" class="btn btn-secondary">Secondary Button</button>
+                </div>
+                <div class="d-grid gap-2 d-md-block mt-4">
+                    <h3>Responsive button</h3>
+                    <button type="button" class="btn btn-primary">Primary Button</button>
+                    <button type="button" class="btn btn-secondary">Secondary Button</button>
+                </div>
+                <div class="d-grid gap-2 col-6 mx-auto mt-4">
+                    <h3>Center Button Verticaly</h3>
+                    <button type="button" class="btn btn-primary">Primary Button</button>
+                    <button type="button" class="btn btn-secondary">Secondary Button</button>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center mt-4">
+                    <h3>Using flex</h3>
+                    <button type="button" class="btn btn-primary">Primary Button</button>
+                    <button type="button" class="btn btn-secondary">Secondary Button</button>
+                </div>
+            </article>
+
+            <article class="mt-5">
+                <h2>Button plugin on boostrap</h2>
+                <div class="mt-3">
+                    <h3>Tag Button</h3>
+                    <p class="d-inline-flex gap-2">
+                        <button type="button" class="btn" data-bs-toggle="button">Toogle Button</button>
+                        <button type="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active Toogle Button</button>
+                        <button type="button" class="btn" data-bs-toggle="button" disabled>Disable Toogle Button</button>
+                    </p>
+                    <p class="d-inline-flex gap-2">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="button">Toogle Button</button>
+                        <button type="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active Toogle Button</button>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="button" disabled>Disable Toogle Button</button>
+                    </p>
+                </div>
+                <div class="mt-3">
+                    <h3>Tag Anchor a</h3>
+                    <p class="d-inline-flex gap-2">
+                       <a href="#" role="button" class="btn" data-bs-toogle="button">Toogle Link</a>
+                       <a href="#" role="button" class="btn active" data-bs-toggle="button" aria-pressed="true">Active Toogle Link</a>
+                       <a role="button" class="btn disabled" data-bs-toggle="button" aria-disabled="true">Disabled Toogle Link</a>
+                    </p>
+                    <p class="d-inline-flex gap-2">
+                       <a href="#" role="button" class="btn btn-primary" data-bs-toggle="button">Toogle Link</a>
+                       <a href="#" role="button" class="btn btn-primary active" data-bs-toggle="button" aria-pressed="true">Active Toogle Link</a>
+                       <a role="button" class="btn btn-primary disabled" data-bs-toggle="button" aria-disabled="true">Disabled Toogle Link</a>
+                    </p>
+                </div>
+            </article>
+        </section>
+    </div>
+
+    <!-- JAVASCRIPT from Boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+</body>
+</html>
